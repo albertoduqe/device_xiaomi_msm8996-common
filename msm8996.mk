@@ -25,6 +25,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     vendor/aosp/overlay/CarrierConfig
 
+# HW crypto
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-ioctl-qti
+
 # ARCore
 PRODUCT_PACKAGES += \
     arcore \
