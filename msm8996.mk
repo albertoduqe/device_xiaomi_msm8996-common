@@ -428,4 +428,4 @@ PRODUCT_BOOT_JARS += \
 
 # Wallpapers
 PRODUCT_PACKAGES += \
-    WallpapersBReel2018
+    WallpapersBReel2019
