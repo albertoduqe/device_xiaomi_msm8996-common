@@ -29,11 +29,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-ioctl-qti
 
-# ARCore
-PRODUCT_PACKAGES += \
-    arcore \
-    ARStickersMod
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.calibration_cad=/system/etc/calibration_cad.xml
 
