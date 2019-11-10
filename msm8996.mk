@@ -27,7 +27,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # HW crypto
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-ioctl-qti
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.calibration_cad=/system/etc/calibration_cad.xml
