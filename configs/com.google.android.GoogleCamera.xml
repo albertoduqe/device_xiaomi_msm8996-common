@@ -16,7 +16,7 @@
 
 <permissions>
 
-    <privapp-permissions package="com.google.android.Pixel2Mod">
+    <privapp-permissions package="com.google.android.GoogleCamera">
         <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
         <permission name="android.permission.ACCESS_FINE_LOCATION"/>
         <permission name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -42,6 +42,7 @@
         <permission name="android.permission.CAMERA"/>
         <permission name="android.permission.FOREGROUND_SERVICE"/>
         <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.GET_PACKAGE_SIZE"/>
     </privapp-permissions>
 
 </permissions>
