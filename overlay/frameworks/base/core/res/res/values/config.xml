@@ -388,6 +388,7 @@
     <bool name="config_nightDisplayAvailable">true</bool>
     
     <!-- Button backlight -->
+    <integer name="config_buttonBrightnessSettingDefault">100</integer>
     <bool name="config_button_brightness_support">true</bool>
 
     <!-- Control whether the always on display mode is available. This should only be enabled on
