@@ -35,9 +35,6 @@ import static android.provider.SearchIndexablesContract.INDEXABLES_RAW_COLUMNS;
 import static android.provider.SearchIndexablesContract.INDEXABLES_XML_RES_COLUMNS;
 import static android.provider.SearchIndexablesContract.NON_INDEXABLES_KEYS_COLUMNS;
 
-import org.lineageos.internal.util.FileUtils;
-import org.lineageos.internal.util.PackageManagerUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,7 +57,7 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
     @Override
     public Cursor queryXmlResources(String[] projection) {
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
-        if (Startup.hasButtonProcs() /* show button panel */) {
+        if (BootCompletedReceiver.hasButtonProcs() /* show button panel */) {
             cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_BUTTON_PANEL]));
         }
         return cursor;
