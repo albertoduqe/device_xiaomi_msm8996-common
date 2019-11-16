@@ -18,7 +18,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.lineageos.settings.device"
     android:versionCode="6"
-    android:versionName="2.5"
+    android:versionName="2.6"
     android:sharedUserId="android.uid.system">
 
     <protected-broadcast android:name="org.lineageos.settings.device.CUST_UPDATE" />
@@ -26,7 +26,8 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <uses-sdk
-        android:minSdkVersion="27" />
+        android:minSdkVersion="29"
+        android:targetSdkVersion="29"/>
 
     <application
         android:icon="@mipmap/ic_launcher"
