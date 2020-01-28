@@ -1,32 +1,14 @@
 [
   {
     "remote":      "github",
-    "repository":  "MisterJaworro/gemini",
+    "repository":  "JonasCardoso/android_kernel_xiaomi_msm8996",
     "target_path": "kernel/xiaomi/msm8996",
-    "branch":      "vanilla-3.18"
-  },
-  {
-    "remote":      "github",
-    "repository":  "MisterJaworro/aarch64",
-    "target_path": "kernel/xiaomi/msm8996/aarch64",
-    "branch":      "master"
-  },
-  {
-    "remote":      "github",
-    "repository":  "MisterJaworro/qcacld-2.0",
-    "target_path": "kernel/xiaomi/msm8996/drivers/staging/qcacld-2.0",
-    "branch":      "master"
+    "branch":      "ten-3.18.x"
   },
   {
     "remote":      "github",
     "repository":  "Inkypen79/vendor_mi8996",
     "target_path": "vendor/xiaomi",
     "branch":      "ten"
-  },
-  {
-    "remote": "pixel-gitlab",
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten"
   }
 ]
